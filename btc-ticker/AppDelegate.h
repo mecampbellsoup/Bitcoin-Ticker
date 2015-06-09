@@ -10,6 +10,8 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (strong, nonatomic) NSStatusItem *statusItem;
+@property (readonly, nonatomic) NSString *bitcoinPriceUrl;
 
 @end
 
